@@ -1,4 +1,3 @@
-import React from 'react';
 import { MapPin, Calendar, ExternalLink } from 'lucide-react';
 
 const Experience = () => {
@@ -26,7 +25,7 @@ const Experience = () => {
       location: "Remote",
       period: "Jun 2021 - Feb 2022",
       type: "Full-time",
-      description: "Developed and maintained multiple client projects from concept to deployment. Collaborated with design and product teams to deliver exceptional user experiences.",
+      description: "Created proven and scalable web applications for various clients. Worked closely with cross-functional teams to deliver high-quality software solutions.",
       achievements: [
         "Built 15+ responsive web applications from scratch",
         "Improved application performance by 40% through optimization",
@@ -53,23 +52,7 @@ const Experience = () => {
       ],
       technologies: ["Javascript", "HTML", "CSS", "WordPress"],
       website: "https://ansgear.com/"
-    },
-    // {
-    //   title: "Junior Web Developer",
-    //   company: "Local Web Solutions",
-    //   location: "Portland, OR",
-    //   period: "2019 - 2020",
-    //   type: "Full-time",
-    //   description: "Started my professional journey building websites for small businesses. Learned best practices and gained experience with various web technologies.",
-    //   achievements: [
-    //     "Completed 30+ small business websites",
-    //     "Learned and implemented responsive design principles",
-    //     "Provided ongoing maintenance and support for clients",
-    //     "Collaborated with designers to translate mockups to code"
-    //   ],
-    //   technologies: ["HTML", "CSS", "JavaScript", "jQuery", "PHP", "MySQL"],
-    //   website: "https://localwebsolutions.com"
-    // }
+    }
   ];
 
   return (

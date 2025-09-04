@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { ExternalLink, Github, ArrowRight } from 'lucide-react';
+import { useState } from 'react';
+import { ExternalLink, Github } from 'lucide-react';
 
 
 const Projects = () => {
@@ -13,7 +13,6 @@ const Projects = () => {
       image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Flair_Airlines_logo_%282019%29.svg/1200px-Flair_Airlines_logo_%282019%29.svg.png",
       technologies: ["React", "React Native", "Node.js", "Java", "MongoDB", "Stripe", "Redux", "Express", "AWS"],
       category: "fullstack",
-      // githubUrl: "https://github.com/yourusername/ecommerce-platform",
       liveUrl: "https://www.flyflair.com/",
       featured: true
     },
@@ -24,7 +23,6 @@ const Projects = () => {
       image: "https://theerrormaster.github.io/images/go7.png",
       technologies: ["React", "Firebase", "Spring Boot", "Ppostgresql","TypeScript", "Socket.io", ],
       category: "fullstack",
-      // githubUrl: "https://github.com/yourusername/task-manager",
       liveUrl: "https://go7.io/",
       featured: true
     },
@@ -46,7 +44,6 @@ const Projects = () => {
       image: "https://play-lh.googleusercontent.com/D-XZJfHtzAFlT985VgYp8ywyyr95XZGIvgszY_HTAZhKTfeHgxFWZ37MzMB8c_0BGQw=s188-rw",
       technologies: [ "Express", "Redis", "Swift", "JWT", "Docker", "Nginx"],
       category: "fullstack",
-      // githubUrl: "https://github.com/yourusername/api-gateway",
       liveUrl: "https://about.neatmon.com/#home",
       featured: false
     },
@@ -89,76 +86,6 @@ const Projects = () => {
             exceptional digital experiences. Each project represents a unique challenge and learning opportunity.
           </p>
         </div>
-
-        {/* Featured Projects Grid */}
-        {/* <div className="featured-projects mb-16">
-          <h3 className="featured-title text-2xl font-semibold mb-8 text-center">
-            ⭐ Featured Work
-          </h3>
-          <div className="featured-grid grid grid-2">
-            {featuredProjects.slice(0, 2).map((project) => (
-              <div key={project.id} className="featured-project-card">
-                <div className="project-image">
-                  <img src={project.image} alt={project.title} />
-                  <div className="project-overlay">
-                    <div className="project-links">
-                      {project.githubUrl && (
-                        <a href={project.githubUrl} target="_blank" rel="noopener noreferrer" className="project-link">
-                          <Github size={20} />
-                        </a>
-                      )}
-                      {project.liveUrl && (
-                        <a href={project.liveUrl} target="_blank" rel="noopener noreferrer" className="project-link">
-                          <ExternalLink size={20} />
-                        </a>
-                      )}
-                    </div>
-                  </div>
-                </div>
-                <div className="project-content">
-                  <h4 className="project-title text-xl font-semibold mb-2">
-                    {project.title}
-                  </h4>
-                  <p className="project-description text-muted mb-4">
-                    {project.description}
-                  </p>
-                  <div className="project-technologies mb-4">
-                    {project.technologies.slice(0, 4).map((tech, index) => (
-                      <span key={index} className="tech-tag">
-                        {tech}
-                      </span>
-                    ))}
-                    {project.technologies.length > 4 && (
-                      <span className="tech-tag more">+{project.technologies.length - 4}</span>
-                    )}
-                  </div>
-                  <div className="project-actions">
-                    {project.liveUrl && (
-                      <a href={project.liveUrl} target="_blank" rel="noopener noreferrer" className="button button-primary">
-                        View Live <ArrowRight size={16} />
-                      </a>
-                    )}
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div> */}
-
-        {/* Project Filter */}
-        {/* <div className="project-filter mb-8">
-          <div className="filter-buttons">
-            {categories.map((category) => (
-              <button
-                key={category.key}
-                onClick={() => setFilter(category.key)}
-                className={`filter-button ${filter === category.key ? 'active' : ''}`}
-              >
-                {category.label}
-              </button>
-            ))}
-          </div>
-        </div> */}
 
         {/* All Projects Grid */}
         <div className="projects-grid grid grid-1">

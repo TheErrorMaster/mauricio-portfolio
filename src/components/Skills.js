@@ -33,12 +33,6 @@ const Skills = () => {
       skills: ["React Native", "Flutter", "iOS", "Android", "Expo"],
       description: "Cross-platform mobile applications with native performance"
     },
-    // {
-    //   icon: <Palette size={24} />,
-    //   title: "UI/UX Design",
-    //   skills: ["Figma", "Adobe XD", "Sketch", "Prototyping", "User Research", "Design Systems"],
-    //   description: "Creating intuitive and beautiful user experiences"
-    // },
     {
       icon: <Zap size={24} />,
       title: "Tools & Technologies",
@@ -82,27 +76,6 @@ const Skills = () => {
             </div>
           ))}
         </div>
-
-        {/* <div className="skills-stats mt-8">
-          <div className="stats-grid grid grid-2">
-            <div className="stat-card card text-center">
-              <div className="stat-number text-3xl font-bold gradient-text mb-2">
-                500000+
-              </div>
-              <div className="stat-label text-muted">
-                Projects Completed
-              </div>
-            </div>
-            <div className="stat-card card text-center">
-              <div className="stat-number text-3xl font-bold gradient-text mb-2">
-                3+
-              </div>
-              <div className="stat-label text-muted">
-                Years Experience
-              </div>
-            </div>
-          </div>
-        </div> */}
       </div>
 
       <style jsx>{`

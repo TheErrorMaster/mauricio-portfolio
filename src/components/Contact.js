@@ -60,31 +60,6 @@ const Contact = () => {
       value: 'mauricio.macias2535@gmail.com',
       href: 'mailto:mauricio.macias2535@gmail.com'
     },
-    // {
-    //   icon: <Phone size={20} />,
-    //   label: 'Phone',
-    //   value: '+1 (714) 469-0029',
-    //   href: 'tel:+17144690029'
-    // },
-    // {
-    //   icon: <MapPin size={20} />,
-    //   label: 'Location',
-    //   value: 'Simi Valley, CA',
-    //   href: 'https://www.google.com/maps/place/Simi+Valley,+CA'
-    // }
-  ];
-
-  const socialLinks = [
-    {
-      icon: <Github size={20} />,
-      label: 'GitHub',
-      href: 'https://github.com/TheErrorMaster'
-    },
-    {
-      icon: <Linkedin size={20} />,
-      label: 'LinkedIn',
-      href: 'https://www.linkedin.com/in/mauricio-macias-679681185/'
-    },
   ];
 
   return (

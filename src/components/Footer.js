@@ -2,12 +2,6 @@ import React from 'react';
 import { Heart, ArrowUp } from 'lucide-react';
 
 const Footer = () => {
-  const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
-
-  const currentYear = new Date().getFullYear();
-
   return (
     <footer className="footer">
       <div className="container">
@@ -30,44 +24,9 @@ const Footer = () => {
                   <li><a href="#contact" className="footer-link">Contact</a></li>
                 </ul>
               </div>
-
-              {/* <div className="footer-section">
-                <h4 className="footer-section-title">Connect</h4>
-                <ul className="footer-nav">
-                  <li><a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="footer-link">GitHub</a></li>
-                  <li><a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" className="footer-link">LinkedIn</a></li>
-                  <li><a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer" className="footer-link">Twitter</a></li>
-                  <li><a href="mailto:your.email@example.com" className="footer-link">Email</a></li>
-                </ul>
-              </div> */}
-
-              {/* <div className="footer-section">
-                <h4 className="footer-section-title">Resources</h4>
-                <ul className="footer-nav">
-                  <li><a href="/resume.pdf" target="_blank" className="footer-link">Resume</a></li>
-                  <li><a href="#" className="footer-link">Blog</a></li>
-                  <li><a href="#" className="footer-link">Newsletter</a></li>
-                  <li><a href="#" className="footer-link">Uses</a></li>
-                </ul>
-              </div> */}
             </div>
           </div>
 
-          {/* <div className="footer-bottom">
-            <div className="footer-bottom-content">
-              <div className="copyright">
-                <p className="copyright-text text-sm text-muted">
-                  © {currentYear} Your Name. Made with{' '}
-                  <Heart size={14} className="heart-icon" />{' '}
-                  using React & modern web technologies.
-                </p>
-              </div>
-              
-              <button onClick={scrollToTop} className="back-to-top" title="Back to top">
-                <ArrowUp size={20} />
-              </button>
-            </div>
-          </div> */}
         </div>
       </div>
 
