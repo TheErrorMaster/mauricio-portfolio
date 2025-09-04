@@ -10,7 +10,7 @@ const Projects = () => {
       id: 1,
       title: "Flair Airlines",
       description: "Flair Airlines is a leading Canadian ultra low-cost carrier, well known for offering the best flight deals in Canada to over 35 destinations across North America. We are currently in the process of revamping our website and mobile app.",
-      image: "https://theerrormaster.github.io/images/flair-logo.png",
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Flair_Airlines_logo_%282019%29.svg/1200px-Flair_Airlines_logo_%282019%29.svg.png",
       technologies: ["React", "React Native", "Node.js", "Java", "MongoDB", "Stripe", "Redux", "Express", "AWS"],
       category: "fullstack",
       // githubUrl: "https://github.com/yourusername/ecommerce-platform",
@@ -247,6 +247,7 @@ const Projects = () => {
           position: relative;
           height: 250px;
           overflow: hidden;
+          background-color: var(--foreground);
         }
 
         .project-image img {

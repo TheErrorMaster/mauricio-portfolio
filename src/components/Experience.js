@@ -11,9 +11,9 @@ const Experience = () => {
       type: "Full-time",
       description: "Developed and maintained multiple client projects from concept to deployment. Collaborated with design and product teams to deliver exceptional user experiences.",
       achievements: [
-        "Improved application performance by 40% through optimization",
+        "Reduced page load times by 50% through performance optimization",
         "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Designed and built RESTful APIs handling 1M+ requests daily",
+        "Implemented modern design systems and component libraries",
         "Integrated third-party APIs and payment systems",
         "Ability to manage multiple projects simultaneously and complete tasks in a timely manner",
       ],
@@ -29,12 +29,12 @@ const Experience = () => {
       description: "Developed and maintained multiple client projects from concept to deployment. Collaborated with design and product teams to deliver exceptional user experiences.",
       achievements: [
         "Built 15+ responsive web applications from scratch",
-        "Reduced page load times by 50% through performance optimization",
-        "Maintained 99.9% uptime across all deployed applications",
-        "Increased client satisfaction scores by 25%",
+        "Improved application performance by 40% through optimization",
+        "Implemented modern design systems and component libraries",
+        "Designed and built RESTful APIs handling 1M+ requests daily",
         "Ensure software stability via regression, support quality assurance, and identify bugs"
       ],
-      technologies: ["Javascript", "Express.js", "MongoDB", "Firebase", "Stripe", "SASS"],
+      technologies: ["React", "Express.js", "MongoDB", "Firebase", "Stripe", "SASS"],
       website: "https://www.howeneat.com/"
     },
     {
@@ -47,7 +47,7 @@ const Experience = () => {
       achievements: [
         "Strong front-end skills in HTML, CSS, JavaScript",
         "Ability to write well-documented code",
-        "Implemented modern design systems and component libraries",
+        "Created comprehensive documentation for website maintenance",
         "Optimized websites for SEO achieving top 3 rankings",
         "Learned and implemented responsive design principles",
       ],

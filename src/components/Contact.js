@@ -60,18 +60,18 @@ const Contact = () => {
       value: 'mauricio.macias2535@gmail.com',
       href: 'mailto:mauricio.macias2535@gmail.com'
     },
-    {
-      icon: <Phone size={20} />,
-      label: 'Phone',
-      value: '+1 (714) 469-0029',
-      href: 'tel:+17144690029'
-    },
-    {
-      icon: <MapPin size={20} />,
-      label: 'Location',
-      value: 'Simi Valley, CA',
-      href: 'https://www.google.com/maps/place/Simi+Valley,+CA'
-    }
+    // {
+    //   icon: <Phone size={20} />,
+    //   label: 'Phone',
+    //   value: '+1 (714) 469-0029',
+    //   href: 'tel:+17144690029'
+    // },
+    // {
+    //   icon: <MapPin size={20} />,
+    //   label: 'Location',
+    //   value: 'Simi Valley, CA',
+    //   href: 'https://www.google.com/maps/place/Simi+Valley,+CA'
+    // }
   ];
 
   const socialLinks = [
@@ -92,7 +92,7 @@ const Contact = () => {
       <div className="container">
         <div className="section-header text-center mb-12">
           <h2 className="section-title text-4xl font-bold mb-4">
-            Get In <span className="gradient-text">Touch</span>
+            Feel Free <span className="gradient-text">To Message Me</span>
           </h2>
           <p className="section-description text-lg text-muted max-w-2xl mx-auto">
             I'm always open to discussing new opportunities, interesting projects, 
@@ -101,64 +101,6 @@ const Contact = () => {
         </div>
 
         <div className="contact-content grid grid-2 gap-8">
-          {/* Contact Information */}
-          <div className="contact-info">
-            <div className="contact-card card">
-              <h3 className="contact-card-title text-2xl font-semibold mb-6">
-                Let's Talk
-              </h3>
-              
-              <p className="contact-intro text-muted mb-8">
-                Whether you have a project in mind, want to collaborate, or just want to say hello, 
-                I'd love to hear from you. Drop me a message and I'll get back to you as soon as possible.
-              </p>
-
-              <div className="contact-details mb-8">
-                {contactInfo.map((info, index) => (
-                  <a 
-                    key={index}
-                    href={info.href}
-                    className="contact-detail"
-                    target={info.href.startsWith('http') ? '_blank' : undefined}
-                    rel={info.href.startsWith('http') ? 'noopener noreferrer' : undefined}
-                  >
-                    <div className="contact-icon">
-                      {info.icon}
-                    </div>
-                    <div className="contact-text">
-                      <div className="contact-label text-sm text-muted">
-                        {info.label}
-                      </div>
-                      <div className="contact-value">
-                        {info.value}
-                      </div>
-                    </div>
-                  </a>
-                ))}
-              </div>
-
-              <div className="social-section">
-                <h4 className="social-title text-lg font-semibold mb-4">
-                  Follow Me
-                </h4>
-                <div className="social-links">
-                  {socialLinks.map((social, index) => (
-                    <a
-                      key={index}
-                      href={social.href}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="social-link"
-                      title={social.label}
-                    >
-                      {social.icon}
-                    </a>
-                  ))}
-                </div>
-              </div>
-            </div>
-          </div>
-
           {/* Contact Form */}
           <div className="contact-form-container">
             <form className="contact-form card" onSubmit={handleSubmit}>
@@ -270,7 +212,7 @@ const Contact = () => {
         }
 
         .contact-content {
-          max-width: 1000px;
+          max-width: 600px;
           margin: 0 auto;
         }
 
@@ -333,6 +275,7 @@ const Contact = () => {
         .contact-value {
           font-weight: 500;
           color: var(--foreground);
+          font-size: 14px;
         }
 
         .social-title {

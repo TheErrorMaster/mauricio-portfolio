@@ -15,11 +15,8 @@ const Footer = () => {
           <div className="footer-main">
             <div className="footer-brand">
               <h3 className="brand-name gradient-text text-xl font-bold mb-2">
-                Your Portfolio
+                Mauricio Portfolio
               </h3>
-              <p className="brand-tagline text-muted text-sm">
-                Building the future, one line of code at a time.
-              </p>
             </div>
 
             <div className="footer-links">
@@ -34,7 +31,7 @@ const Footer = () => {
                 </ul>
               </div>
 
-              <div className="footer-section">
+              {/* <div className="footer-section">
                 <h4 className="footer-section-title">Connect</h4>
                 <ul className="footer-nav">
                   <li><a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="footer-link">GitHub</a></li>
@@ -42,9 +39,9 @@ const Footer = () => {
                   <li><a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer" className="footer-link">Twitter</a></li>
                   <li><a href="mailto:your.email@example.com" className="footer-link">Email</a></li>
                 </ul>
-              </div>
+              </div> */}
 
-              <div className="footer-section">
+              {/* <div className="footer-section">
                 <h4 className="footer-section-title">Resources</h4>
                 <ul className="footer-nav">
                   <li><a href="/resume.pdf" target="_blank" className="footer-link">Resume</a></li>
@@ -52,11 +49,11 @@ const Footer = () => {
                   <li><a href="#" className="footer-link">Newsletter</a></li>
                   <li><a href="#" className="footer-link">Uses</a></li>
                 </ul>
-              </div>
+              </div> */}
             </div>
           </div>
 
-          <div className="footer-bottom">
+          {/* <div className="footer-bottom">
             <div className="footer-bottom-content">
               <div className="copyright">
                 <p className="copyright-text text-sm text-muted">
@@ -70,7 +67,7 @@ const Footer = () => {
                 <ArrowUp size={20} />
               </button>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
 
@@ -106,7 +103,7 @@ const Footer = () => {
 
         .footer-links {
           display: grid;
-          grid-template-columns: repeat(3, 1fr);
+          grid-template-columns: repeat(2, 1fr);
           gap: 40px;
         }
 

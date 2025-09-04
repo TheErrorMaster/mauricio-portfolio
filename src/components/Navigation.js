@@ -27,7 +27,7 @@ const Navigation = () => {
       <div className="container">
         <div className="nav-content">
           <div className="nav-brand">
-            <span className="gradient-text text-xl font-bold">Portfolio</span>
+            <span className="gradient-text text-xl font-bold">Mauricio Portfolio</span>
           </div>
 
           {/* Desktop Navigation */}
@@ -78,6 +78,9 @@ const Navigation = () => {
             </button>
             <button onClick={() => scrollToSection('contact')} className="mobile-nav-link">
               Contact
+            </button>
+            <button onClick={() => window.open('https://theerrormaster.github.io/MauricioMaciasResume.pdf', '_blank', 'noopener,noreferrer')} className="mobile-nav-link">
+              Resume
             </button>
           </div>
         )}

@@ -33,12 +33,12 @@ const Skills = () => {
       skills: ["React Native", "Flutter", "iOS", "Android", "Expo"],
       description: "Cross-platform mobile applications with native performance"
     },
-    {
-      icon: <Palette size={24} />,
-      title: "UI/UX Design",
-      skills: ["Figma", "Adobe XD", "Sketch", "Prototyping", "User Research", "Design Systems"],
-      description: "Creating intuitive and beautiful user experiences"
-    },
+    // {
+    //   icon: <Palette size={24} />,
+    //   title: "UI/UX Design",
+    //   skills: ["Figma", "Adobe XD", "Sketch", "Prototyping", "User Research", "Design Systems"],
+    //   description: "Creating intuitive and beautiful user experiences"
+    // },
     {
       icon: <Zap size={24} />,
       title: "Tools & Technologies",
